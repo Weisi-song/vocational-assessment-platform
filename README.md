@@ -2,6 +2,20 @@
 
 > 本仓库为项目脱敏展示版，不包含机构名称、学生数据、生产源码或内部资料。
 
+## 在线体验
+
+**[打开交互式 Demo](https://weisi-song.github.io/vocational-assessment-platform/)**
+
+Demo 直接复用原系统的前端组件、页面结构、视觉样式和报告图表，后台数据替换为浏览器内的虚构学生档案。登录页已经填入演示账号，点击“登录”即可体验学生列表、五期评估档案、指标评分和成长对比报告。
+
+为保护完整专业量表，公开版没有发布原系统的 100 多项正式指标及其说明，而是使用 31 项重新编写的代表性指标保留原评分流程与报告逻辑。学校、教师、学生、家庭和评估数据均为虚构内容。
+
+![原版结构的学生档案列表](assets/student-list.png)
+
+![原版评分页面与代表性公开指标](assets/assessment-page.png)
+
+![五次评估成长对比报告](assets/progress-report.png)
+
 ## 项目背景
 
 这个项目来自一项面向残障青年、尤其是心智障碍青年的职业发展计划。项目同时连接特教学校、企业、学生、家长、政策部门和研究机构，希望帮助青年在特教阶段更早认识自己的职业能力，并获得更有针对性的训练和就业支持。
@@ -57,7 +71,7 @@
 
 ## 公开范围
 
-公开仓库目前仅保留脱敏后的项目案例说明。生产系统、真实学生档案、完整专业量表和内部资料保持私有；新的公开演示版将在完成脱敏与一致性校对后再发布。
+公开仓库包含案例说明、脱敏 Demo 的编译产物和界面截图，不公开生产源代码。Demo 不连接生产数据库或真实身份系统；真实机构、学生档案、完整专业量表、指标说明和内部资料保持私有。
 
 ---
 
@@ -66,6 +80,20 @@
 # Vocational Assessment Platform
 
 > This is a sanitized portfolio case study. Organization names, student data, production source code, and internal materials are excluded.
+
+## Live demo
+
+**[Open the interactive demo](https://weisi-song.github.io/vocational-assessment-platform/)**
+
+The demo reuses the original system's frontend components, page structure, visual styling, and report charts while replacing backend data with fictional student records in the browser. The login screen is prefilled; select “登录” to explore student records, five assessment cycles, scoring, and longitudinal reports.
+
+To protect the complete professional framework, the public build does not publish the original 100+ formal indicators or their guidance. It uses 31 newly written representative indicators to preserve the original scoring and reporting flow. All schools, teachers, students, families, and assessment data are fictional.
+
+![Student records using the original interface structure](assets/student-list.png)
+
+![Original assessment interface with representative public indicators](assets/assessment-page.png)
+
+![Five-cycle longitudinal progress report](assets/progress-report.png)
 
 ## Context
 
@@ -113,4 +141,4 @@ Teachers no longer needed to recalculate scores, rebuild charts, and recreate re
 
 ## Public scope
 
-This repository currently contains only the sanitized project case study. The production system, real student records, complete professional framework, and internal materials remain private. A new public demo will be published only after sanitization and fidelity review are complete.
+This repository contains the case study, compiled artifacts for the sanitized demo, and interface screenshots; production source code is not published. The demo does not connect to the production database or identity system. Real organizations, student records, the complete professional framework, indicator guidance, and internal materials remain private.
