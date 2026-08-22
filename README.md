@@ -2,34 +2,62 @@
 
 > 本仓库为项目脱敏展示版，不包含机构名称、学生数据、生产源码或内部资料。
 
-这个项目服务于心智障碍青年的职业发展。我把一套包含 100 多项指标的专业评估方法，做成了特教教师可以直接使用的线上工具：老师完成评分后，系统会自动算分、生成图表和评估报告，并把学生多个学期的评估结果沉淀到同一份成长档案中。
+## 项目背景
 
-## 问题
+这个项目来自一项面向残障青年、尤其是心智障碍青年的职业发展计划。项目同时连接特教学校、企业、学生、家长、政策部门和研究机构，希望帮助青年在特教阶段更早认识自己的职业能力，并获得更有针对性的训练和就业支持。
 
-过去，教师每学期都要对学生完成一次包含 100 多项指标的评估，再手工算分、制作图表和撰写报告。资料散落在纸张或不同文件里，不仅费时，也很难把前后几次评估连起来看，更无法直观判断学生在哪些方面真正取得了进步。
+项目采用一套成熟的个别化职业教育与转型支持方法。它把职业素养拆分为多个维度和 100 多项具体指标，教师需要定期评估学生，再根据结果调整培养计划，并在后续阶段为学生匹配更合适的实习和就业机会。
 
-## 我的解决方案
+## 原来的工作方式
 
-- 把复杂的评估指标整理成清晰的线上评分流程
-- 自动完成各维度算分、图表绘制和报告生成
-- 为每位学生建立独立档案，集中保存历次评估结果
-- 支持对比学生在校期间通常完成的五次评估
-- 让教师能快速看出学生的变化，并据此安排后续训练
+在数字化之前，教师每学期都要完成一轮包含 100 多项指标的评估，再手工计算各维度得分、制作图表并撰写报告。纸质材料和零散文件难以连续保存，同一名学生前后几次评估也很难放在一起比较。
+
+真正的问题不只是“填表太慢”，而是专业方法没有被沉淀成一套连贯的工作流程：评估、报告、培养计划和学生成长记录彼此割裂，教师很难快速判断学生发生了什么变化，以及下一阶段应该重点训练什么。
+
+## 我做的系统
+
+- 把 100 多项指标整理成教师可以逐步完成的线上评分流程
+- 自动计算各维度得分并生成可视化评估报告
+- 为每位学生建立独立档案，集中保存基本信息和历次结果
+- 支持对比学生在校期间通常完成的五轮评估
+- 让教师能从变化趋势中识别优势、薄弱项和下一步培养重点
+- 将原本分散的评分、报告和档案管理连成同一条工作流
+
+## 系统如何运转
+
+```text
+建立学生档案
+      ↓
+教师按指标完成评估
+      ↓
+系统自动算分并生成图表
+      ↓
+形成当期评估报告
+      ↓
+沉淀到学生成长档案
+      ↓
+与前几轮结果对比，支持后续培养计划
+```
+
+## 从反馈中怎么改
+
+第一版完成后，我面向一线教师进行讲解和试用，观察他们在哪些环节会犹豫、误解或需要返回修改。后续迭代主要围绕四件事展开：让评分顺序更符合教师习惯、让指标说明更容易理解、让报告在屏幕和打印场景中都更清楚，以及让教师能更快找到学生的历史记录和前后变化。
+
+这里的用户反馈不是上线后的附加环节，而是产品形成过程的一部分。教师提供真实使用体验，项目负责人帮助补充专业背景并协调测试；我负责判断问题、调整方案并完成实现。
 
 ## 我的角色
 
-我负责了产品从 0 到 1 的完整交付：梳理教师的实际工作流程，设计产品结构并完成开发，向一线教师演示和收集意见，再根据反馈迭代，直到正式发布并完成用户培训。项目负责人主要提供领域背景，并协调教师参与测试。
+这个系统由我主导完成从 0 到 1 的完整交付，包括需求梳理、产品框架、信息架构、交互设计、开发实现、测试、教师演示、意见收集、版本迭代、正式发布和用户培训。
 
-## 工作流
+专业评估方法和项目背景来自领域专家与项目团队；他们定义“应该评什么”，我负责把这套专业方法转化为一线教师真正能使用的数字产品。
 
-```text
-评估体系 → 教师评分 → 自动计算 → 可视化报告 → 学生档案 → 成长对比
-```
+## 带来的变化
+
+教师不再需要为每名学生反复手工算分、制图和重写报告，学生的多轮评估也能在同一档案中连续保存和比较。更重要的是，评估结果从一份学期末材料变成了可以持续支持培养计划和就业准备的成长记录。
 
 ## 公开范围
 
-仓库当前用于呈现产品与交付故事。后续将增加模拟数据交互 Demo 和脱敏视觉材料；生产系统及真实档案保持私有。
-
+公开仓库目前呈现产品背景、工作流和交付过程。后续将加入模拟数据 Demo、脱敏界面和报告示例；生产系统、真实学生档案和专业内部资料保持私有。
 
 ---
 
@@ -37,33 +65,52 @@
 
 # Vocational Assessment Platform
 
-> A sanitized portfolio case study of a real vocational education system. Organization names, student data, production source code, and proprietary materials are not included.
+> This is a sanitized portfolio case study. Organization names, student data, production source code, and internal materials are excluded.
 
-I productized a 100+ indicator vocational assessment methodology into a longitudinal evaluation and reporting workflow for special-education teachers supporting young people with intellectual disabilities.
+## Context
 
-## The problem
+The system was built for a disability-youth career development program connecting special-education schools, employers, students, families, policy stakeholders, and research partners. It applies an established individualized vocational education and transition-support methodology with more than 100 indicators across multiple employability dimensions.
 
-Teachers completed a large assessment every semester, calculated scores manually, built charts, and wrote reports from scattered files. The process was slow, difficult to carry forward, and made progress across multiple assessment cycles hard to see.
+Teachers use the framework repeatedly during a student's time at school, then adapt training plans and later employment support around the results.
+
+## Previous workflow
+
+Each semester, teachers completed the full assessment, calculated dimensional scores, created charts, and wrote reports manually. Paper records and scattered files were difficult to carry forward, and comparing several assessment cycles for one student was especially cumbersome.
+
+The deeper problem was fragmentation: assessment, reporting, training plans, and longitudinal records did not form one continuous workflow.
 
 ## What I built
 
-- Guided scoring across a multi-dimensional assessment framework
-- Automatic score calculation and visual report generation
-- A dedicated longitudinal record for every student
+- A guided online flow for 100+ assessment indicators
+- Automatic dimensional scoring and visual report generation
+- A dedicated record for each student
 - Comparison across the five assessments typically completed during school
-- A workflow that teachers could use without rebuilding reports by hand
-
-## My role
-
-I led the product from 0 to 1: requirements discovery, workflow and information architecture, implementation, teacher walkthroughs, feedback collection, iteration, release, and user training. The program lead supplied domain context and coordinated participation from teachers.
+- A continuous workflow linking assessment, reporting, records, and future planning
 
 ## Workflow
 
 ```text
-Assessment framework → Teacher scoring → Automatic calculation
-                     → Visual report → Student record → Progress comparison
+Create student record → Complete assessment → Calculate and visualize
+                      → Generate report → Save to longitudinal record
+                      → Compare cycles and plan future support
 ```
 
-## Public portfolio scope
+## Feedback and iteration
 
-This repository currently documents the product and delivery story. A mock-data interactive demo and sanitized visuals are planned; the production system and real records remain private.
+I walked frontline teachers through early versions and observed where the workflow caused hesitation, misunderstanding, or repeated corrections. Iterations focused on the order of assessment, clarity of indicator guidance, report readability on screen and in print, and faster access to historical comparisons.
+
+Teachers contributed real usage feedback, while the program lead supplied domain context and coordinated testing. I translated that input into product decisions and implementation.
+
+## My role
+
+I led the complete zero-to-one delivery: requirements discovery, product structure, information architecture, interaction design, implementation, testing, teacher walkthroughs, feedback collection, iteration, release, and training.
+
+Domain experts defined what should be assessed; I turned the methodology into a product teachers could actually use.
+
+## Outcome
+
+Teachers no longer needed to recalculate scores, rebuild charts, and recreate reports for every student. Multiple assessments became a continuous growth record that could support training and employment preparation over time.
+
+## Public scope
+
+This repository currently documents the context, workflow, and delivery process. A synthetic-data demo, sanitized interfaces, and sample reports are planned. The production system and real student records remain private.
