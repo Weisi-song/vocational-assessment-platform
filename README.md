@@ -14,8 +14,6 @@ Demo 直接复用原系统的前端组件、页面结构、视觉样式和报告
 
 ![原版评分页面与代表性公开指标](assets/assessment-page.png)
 
-![五次评估成长对比报告](assets/progress-report.png)
-
 ## 项目背景
 
 这个项目来自一项面向残障青年、尤其是心智障碍青年的职业发展计划。项目同时连接特教学校、企业、学生、家长、政策部门和研究机构，希望帮助青年在特教阶段更早认识自己的职业能力，并获得更有针对性的训练和就业支持。
@@ -92,8 +90,6 @@ To protect the complete professional framework, the public build does not publis
 ![Student records using the original interface structure](assets/student-list.png)
 
 ![Original assessment interface with representative public indicators](assets/assessment-page.png)
-
-![Five-cycle longitudinal progress report](assets/progress-report.png)
 
 ## Context
 
