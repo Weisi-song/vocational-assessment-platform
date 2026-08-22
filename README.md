@@ -10,9 +10,13 @@ Demo 直接复用原系统的前端组件、页面结构、视觉样式和报告
 
 为保护完整专业量表，公开版没有发布原系统的 100 多项正式指标及其说明，而是使用 31 项重新编写的代表性指标保留原评分流程与报告逻辑。学校、教师、学生、家庭和评估数据均为虚构内容。
 
-![原版结构的学生档案列表](assets/student-list.png)
-
-![原版评分页面与代表性公开指标](assets/assessment-page.png)
+<p align="center">
+  <img src="assets/screenshots/01-login.png" alt="职业素养评估系统登录页" width="48%" />
+  <img src="assets/screenshots/02-student-list.png" alt="学生档案列表" width="48%" />
+  <br />
+  <img src="assets/screenshots/03-assessment.png" alt="职业素养评分页面" width="48%" />
+  <img src="assets/screenshots/04-report.png" alt="职业素养评估报告" width="48%" />
+</p>
 
 ## 项目背景
 
@@ -87,9 +91,13 @@ The demo reuses the original system's frontend components, page structure, visua
 
 To protect the complete professional framework, the public build does not publish the original 100+ formal indicators or their guidance. It uses 31 newly written representative indicators to preserve the original scoring and reporting flow. All schools, teachers, students, families, and assessment data are fictional.
 
-![Student records using the original interface structure](assets/student-list.png)
-
-![Original assessment interface with representative public indicators](assets/assessment-page.png)
+<p align="center">
+  <img src="assets/screenshots/01-login.png" alt="Vocational assessment system login" width="48%" />
+  <img src="assets/screenshots/02-student-list.png" alt="Student record list" width="48%" />
+  <br />
+  <img src="assets/screenshots/03-assessment.png" alt="Vocational assessment scoring" width="48%" />
+  <img src="assets/screenshots/04-report.png" alt="Vocational assessment report" width="48%" />
+</p>
 
 ## Context
 
