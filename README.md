@@ -2,16 +2,6 @@
 
 > 本仓库为项目脱敏展示版，不包含机构名称、学生数据、生产源码或内部资料。
 
-## 在线体验
-
-**[打开交互式 Demo](https://weisi-song.github.io/vocational-assessment-platform/)**
-
-公开 Demo 使用完全虚构的学校、教师、学生和评估数据，保留“学生档案—指标评估—自动报告—五次成长对比”的核心体验。为避免公开专业内部资料，评分页只选取 4 个维度、20 项代表性演示指标，并非生产系统的完整量表。
-
-![学生成长档案](assets/student-records.png)
-
-![自动生成的评估报告](assets/assessment-report.png)
-
 ## 项目背景
 
 这个项目来自一项面向残障青年、尤其是心智障碍青年的职业发展计划。项目同时连接特教学校、企业、学生、家长、政策部门和研究机构，希望帮助青年在特教阶段更早认识自己的职业能力，并获得更有针对性的训练和就业支持。
@@ -67,7 +57,7 @@
 
 ## 公开范围
 
-公开仓库包含案例说明、独立交互式 Demo 和脱敏界面截图。Demo 不连接生产数据库，不包含真实身份认证、完整专业量表或生产源码；生产系统、真实学生档案和专业内部资料保持私有。
+公开仓库目前仅保留脱敏后的项目案例说明。生产系统、真实学生档案、完整专业量表和内部资料保持私有；新的公开演示版将在完成脱敏与一致性校对后再发布。
 
 ---
 
@@ -76,16 +66,6 @@
 # Vocational Assessment Platform
 
 > This is a sanitized portfolio case study. Organization names, student data, production source code, and internal materials are excluded.
-
-## Live demo
-
-**[Open the interactive demo](https://weisi-song.github.io/vocational-assessment-platform/)**
-
-The public demo uses entirely fictional schools, teachers, students, and assessment data. It preserves the core journey from student record to assessment, automatic reporting, and five-cycle longitudinal comparison. To protect internal domain material, it uses 20 representative sample indicators across four dimensions rather than the production framework.
-
-![Student growth records](assets/student-records.png)
-
-![Automatically generated assessment report](assets/assessment-report.png)
 
 ## Context
 
@@ -133,4 +113,4 @@ Teachers no longer needed to recalculate scores, rebuild charts, and recreate re
 
 ## Public scope
 
-This repository includes the case study, a standalone interactive demo, and sanitized interface screenshots. The demo does not connect to the production database and excludes real authentication, the complete professional framework, and production source code. The production system and real student records remain private.
+This repository currently contains only the sanitized project case study. The production system, real student records, complete professional framework, and internal materials remain private. A new public demo will be published only after sanitization and fidelity review are complete.
